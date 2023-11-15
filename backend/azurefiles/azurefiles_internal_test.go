@@ -41,7 +41,7 @@ func (f *Fs) InternalTestAuth(t *testing.T) {
 			name: "SASUrl",
 			options: &Options{
 				ShareName: shareName,
-				SASUrl:    "",
+				SASURL:    "",
 			}},
 	}
 
